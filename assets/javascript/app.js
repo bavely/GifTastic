@@ -67,7 +67,7 @@ $(".getGif").click(function(){
    		captionDiv.html("<p> Rating: "+response.data[i].rating);
 
 			//Styling Divs.
-			var div2 = $("<div class='col-sm-6 col-md-4'>");
+			var div2 = $("<div class='div2 col-sm-6 col-md-4'>");
 			var div3 = $("<div class='thumbnail'>");
 			div2.html(div3);
    		div3.append(gifImg);
