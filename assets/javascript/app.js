@@ -42,7 +42,7 @@ function displayGif(){
 		var animeName = $(this).attr("anime-name");
 		console.log(animeName);
 
-		var searchUrl = "http://api.giphy.com/v1/stickers/search?q="+animeName+"&limit=10&api_key=dc6zaTOxFJmzC"
+		var searchUrl = "https://api.giphy.com/v1/stickers/search?q="+animeName+"&limit=10&api_key=dc6zaTOxFJmzC"
 
 		$.ajax({
 		url: searchUrl,
