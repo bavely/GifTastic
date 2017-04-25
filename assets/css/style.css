@@ -1,4 +1,14 @@
 
+
+body{
+	
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%; 
+
+}
+
 .div2{
 	
 	display: table;
@@ -59,4 +69,13 @@ h1{
 
     position: relative;
     bottom: 20px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.formArea{
+	
+	background-image: url("../images/smallbg.gif");
+	background-repeat: no-repeat;
+    background-size:50% 50%; 
+    background-position: right top; 
 }

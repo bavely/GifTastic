@@ -36,7 +36,6 @@ $(".submitBtn").click(function(event){
 //Adding new gif by clicking button.
 function displayGif(){
 
-$(".getGif").click(function(){
 
 		$(".gifsArea").empty();
 
@@ -53,8 +52,6 @@ $(".getGif").click(function(){
 
     //Adding Gifs loop.
 		for (var i = 0; i < response.data.length; i++) {
-
-
 
 			var gifImg = $("<img>");
 			gifImg.addClass("gif-image ");
@@ -76,9 +73,7 @@ $(".getGif").click(function(){
 		}
  		moveStop();
 		});
-});
 }
-
 
 // Gif moving and stop function.
 function moveStop(){
