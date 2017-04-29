@@ -26,7 +26,7 @@ function addButtons(){
 
 $(".submitBtn").click(function(event){
 	event.preventDefault();
-	if (player1Name === ""){alert("please write somthing!");}
+	if (inputVal === ""){alert("please write somthing!");}
 	else{
 	var inputVal = $(".addNew").val().trim();
 	options.push(inputVal);
