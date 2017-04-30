@@ -25,10 +25,12 @@ function addButtons(){
 // button to get the input value from the input area and add new button.
 
 $(".submitBtn").click(function(event){
+	
 	event.preventDefault();
-	if (inputVal === ""){alert("please write somthing!");}
-	else{
 	var inputVal = $(".addNew").val().trim();
+	if (inputVal === ""){alert("Invalid Input!!");}
+	else{
+
 	options.push(inputVal);
 	// console.log(options);
 	addButtons();
