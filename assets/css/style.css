@@ -80,3 +80,11 @@ h1{
     background-position: right top; 
 }
 
+.search{
+
+	font-family: 'Handlee', cursive;
+	padding: 20px;
+	text-align: center;
+	font-size: 120%;
+}
+
